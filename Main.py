@@ -29,5 +29,4 @@ for item in re.split('], |].', input_data):
   data = item.split(', ')
   if len(data) > 1:
     insert(HashTable, int(data[0]), data[1])
-
 display_hash (HashTable)
